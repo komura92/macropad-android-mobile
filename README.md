@@ -17,12 +17,15 @@ Actually there is no automatic config in this project.
 Don't forget to set your server address in 
 [ServerConfig.java](/app/src/main/java/com/itninja/macropad/app/api/config/ServerConfig.java).
 
+## Note
+
+This project was migrated to flutter and this android repo will be no longer supported.
+Flutter version is available [here](https://github.com/komura92/ninja_macropad_flutter).
 
 ## Roadmap
 
-In future I want to add some additional features to this project. I will be probably about 
-two things per year, depending of my time availability. This project will be also migrated
-to Flutter for iPhone users.
+In the future, I want to add some additional features to this project. It will be probably about 
+two things per year, depending of my time availability.
 
 There's a shortly described list:
 - changing active workspace on PC triggers changing active menu option in mobile app [MP-AM-F-01],
@@ -30,4 +33,5 @@ There's a shortly described list:
 - dynamic configuration for panels content [MP-AM-F-03],
 - dynamic configuration for menu options [MP-AM-F-04],
 - dropdown for choosing which device to control [MP-AM-F-05],
-- menu entry for graphic panel (OBS etc.) [MP-AM-F-06].
+- menu entry for graphic panel (OBS etc.) [MP-AM-F-06],
+- ~~migration to flutter [MP-AM-F-07]~~.
